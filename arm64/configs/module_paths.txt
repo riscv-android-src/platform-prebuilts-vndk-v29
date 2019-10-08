@@ -207,7 +207,7 @@ libssl.so external/boringssl external/boringssl
 libstagefright_bufferpool@2.0.so frameworks/av/media/bufferpool/2.0 frameworks/av/media/bufferpool/2.0
 libstagefright_bufferqueue_helper.so frameworks/av/media/libstagefright/bqhelper
 libstagefright_foundation.so frameworks/av/media/libstagefright/foundation frameworks/av/media/libstagefright/foundation
-libstagefright_omx.so
+libstagefright_omx.so frameworks/av/media/libstagefright/omx
 libstagefright_omx_utils.so frameworks/av/media/libstagefright/omx
 libstagefright_xmlparser.so frameworks/av/media/libstagefright/xmlparser
 libsysutils.so system/core/libsysutils system/core/libsysutils
