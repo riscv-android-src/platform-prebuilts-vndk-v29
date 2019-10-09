@@ -264,6 +264,8 @@ phony {
         "ld.config.29.txt",
         "llndk.libraries.29.txt",
         "vndksp.libraries.29.txt",
+        "vndkcore.libraries.29.txt",
+        "vndkprivate.libraries.29.txt",
     ],
 }
 
@@ -4042,6 +4044,9 @@ vndk_prebuilt_shared {
         x86: {
             srcs: ["arch-x86-x86_64/shared/vndk-core/libstagefright_omx.so"],
         },
+        x86_64: {
+            srcs: ["arch-x86_64-x86_64/shared/vndk-core/libstagefright_omx.so"],
+        },
     },
 }
 
@@ -4428,12 +4433,13 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    relative_install_path: "hw",
     arch: {
         x86: {
+            relative_install_path: "hw",
             srcs: ["arch-x86-x86_64/shared/vndk-sp/android.hidl.memory@1.0-impl.so"],
         },
         x86_64: {
+            relative_install_path: "hw",
             srcs: ["arch-x86_64-x86_64/shared/vndk-sp/android.hidl.memory@1.0-impl.so"],
         },
     },
