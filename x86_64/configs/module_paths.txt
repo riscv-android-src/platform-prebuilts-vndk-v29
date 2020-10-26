@@ -234,7 +234,7 @@ libRSCpuRef.so frameworks/rs/cpu_ref
 libRSDriver.so frameworks/rs
 libRS_internal.so frameworks/rs
 libbacktrace.so system/core/libbacktrace system/core/libbacktrace
-libbase.so system/core/base system/core/base
+libbase.so system/libbase system/libbase
 libbcinfo.so frameworks/compile/libbcc/bcinfo
 libbinderthreadstate.so frameworks/native/libs/binderthreadstate frameworks/native/libs/binderthreadstate
 libblas.so external/cblas
