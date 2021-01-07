@@ -3281,10 +3281,11 @@ vndk_prebuilt_shared {
     name: "libgui",
     version: "29",
     target_arch: "arm64",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
+        private: true,
     },
     arch: {
         arm: {
@@ -4466,11 +4467,12 @@ vndk_prebuilt_shared {
     name: "libbacktrace",
     version: "29",
     target_arch: "arm64",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     arch: {
         arm: {
@@ -4526,11 +4528,12 @@ vndk_prebuilt_shared {
     name: "libbinderthreadstate",
     version: "29",
     target_arch: "arm64",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     arch: {
         arm: {
@@ -4546,11 +4549,12 @@ vndk_prebuilt_shared {
     name: "libblas",
     version: "29",
     target_arch: "arm64",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     notice: ":vndk-v29-libblas.so-notice",
     arch: {
@@ -4588,11 +4592,12 @@ vndk_prebuilt_shared {
     name: "libcompiler_rt",
     version: "29",
     target_arch: "arm64",
-    vendor_available: false,
-    product_available: false,
+    vendor_available: true,
+    product_available: true,
     vndk: {
         enabled: true,
         support_system_process: true,
+        private: true,
     },
     notice: ":vndk-v29-libcompiler_rt.so-notice",
     arch: {
