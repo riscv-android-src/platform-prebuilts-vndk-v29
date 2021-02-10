@@ -3,5 +3,5 @@ third_party {
   #   common/NOTICE_FILES/libcap.so.txt
   #   common/NOTICE_FILES/libnl.so.txt
   #   common/NOTICE_FILES/libexif.so.txt
-  license_type: RESTRICED
+  license_type: RESTRICTED
 }
