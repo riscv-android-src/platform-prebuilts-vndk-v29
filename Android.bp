@@ -34,7 +34,6 @@ license {
         "SPDX-license-identifier-MIT",
         "SPDX-license-identifier-NCSA",
         "SPDX-license-identifier-OpenSSL",
-        "SPDX-license-identifier-Zlib",
         "legacy_permissive",
     ],
     // large-scale-change unable to identify any license_text files
